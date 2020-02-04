@@ -13,6 +13,11 @@ export class ChromecastPluginWeb extends WebPlugin implements ChromecastPluginPl
     console.log('ECHO', options);
     return options;
   }
+
+  async testMethod(options: { value: string }): Promise<{value: string}> {
+    console.log('TSET METHOD', options);
+    return options;
+  }
 }
 
 const ChromecastPlugin = new ChromecastPluginWeb();
