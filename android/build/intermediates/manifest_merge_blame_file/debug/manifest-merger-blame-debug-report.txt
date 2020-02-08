@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gameleap.capacitor_chromecast"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/src/main/AndroidManifest.xml
+10
+11    <application>
+11-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/src/main/AndroidManifest.xml:4:5-9:19
+12        <meta-data
+12-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/src/main/AndroidManifest.xml:5:7-8:83
+13            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+13-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/src/main/AndroidManifest.xml:6:11-106
+14            android:value="com.gameleap.capacitor_chromecast.CastOptionsProvider" />
+14-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/src/main/AndroidManifest.xml:8:11-80
+15    </application>
+16
+17</manifest>
