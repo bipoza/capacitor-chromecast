@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+	package
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:3:7-50
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:3-10:14
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:2:13-71
+application
+ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:4:5-9:19
+meta-data#com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME
+ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:5:7-8:83
+	android:value
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:8:11-80
+	android:name
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml:6:11-106
+uses-sdk
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		ADDED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml
+		INJECTED from /home/zrfl/git/capacitor-chromecast/android/src/main/AndroidManifest.xml

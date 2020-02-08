@@ -1,9 +1,9 @@
-declare module "@capacitor/core" {
+declare module '@capacitor/core' {
   interface PluginRegistry {
     ChromecastPlugin: ChromecastPluginPlugin;
   }
 }
 
 export interface ChromecastPluginPlugin {
-  echo(options: { value: string }): Promise<{value: string}>;
+  requestSession(): Promise<void>;
 }

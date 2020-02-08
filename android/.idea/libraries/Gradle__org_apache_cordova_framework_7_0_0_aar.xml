@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: org.apache.cordova:framework:7.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/framework-7.0.0.aar/601597b8303b6adda72fe80a8dd07590/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/framework-7.0.0.aar/601597b8303b6adda72fe80a8dd07590/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1c983eaaac3b78a6f3356d1aab5376/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1c983eaaac3b78a6f3356d1aab5376/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
