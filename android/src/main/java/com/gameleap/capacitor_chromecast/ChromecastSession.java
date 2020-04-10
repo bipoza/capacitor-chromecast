@@ -8,6 +8,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.getcapacitor.JSObject;
+import com.getcapacitor.PluginCall;
 import com.google.android.gms.cast.ApplicationMetadata;
 import com.google.android.gms.cast.Cast;
 import com.google.android.gms.cast.MediaInfo;
@@ -219,7 +221,7 @@ public class ChromecastSession {
      * @param textTrackStyle - The text track style
      * @param callback called with success or error
      */
-    public void loadMedia(final String contentId, final JSONObject customData, final String contentType, final long duration, final String streamType, final boolean autoPlay, final double currentTime, final JSONObject metadata, final JSONObject textTrackStyle, final CallbackContext callback) {
+    public void loadMedia(final String contentId, final JSONObject customData, final String contentType, final long duration, final String streamType, final boolean autoPlay, final double currentTime, final JSONObject metadata, final JSONObject textTrackStyle, final PluginCall callback) {
         if (client == null || session == null) {
             callback.error("session_error");
             return;
@@ -237,7 +239,11 @@ public class ChromecastSession {
                 setQueueReloadCallback(new Runnable() {
                     @Override
                     public void run() {
-                        callback.success(createMediaObject());
+                        try {
+                            callback.success(JSObject.fromJSONObject(createMediaObject()));
+                        } catch (JSONException e) {
+                            callback.error(e.getMessage(), e);
+                        }
                     }
                 });
                 client.load(loadRequest).setResultCallback(new ResultCallback<MediaChannelResult>() {

@@ -3,24 +3,24 @@
 3    package="com.gameleap.capacitor_chromecast.test" >
 4
 5    <uses-sdk
-5-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:5:5-74
+5-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:5:15-41
+6-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:5:42-71
+7-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:5:42-71
 8
 9    <instrumentation
-9-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:11:5-15:88
+9-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:11:5-15:88
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:11:22-76
+10-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:11:22-76
 11        android:functionalTest="false"
-11-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:14:22-52
+11-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:13:22-53
+12-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:13:22-53
 13        android:label="Tests for com.gameleap.capacitor_chromecast.test"
-13-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:15:22-86
+13-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:15:22-86
 14        android:targetPackage="com.gameleap.capacitor_chromecast.test" />
-14-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:12:22-84
+14-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:12:22-84
 15    <!-- This permission is required to start foreground services in Android P. -->
 16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 16-->[com.google.android.gms:play-services-cast-framework:18.0.0] /home/zrfl/.gradle/caches/transforms-2/files-2.1/1b2ac5063a6f80e859b1f8b17c781dad/play-services-cast-framework-18.0.0/AndroidManifest.xml:7:5-77
@@ -50,14 +50,14 @@
 26-->[com.google.firebase:firebase-iid:18.0.0] /home/zrfl/.gradle/caches/transforms-2/files-2.1/5ff362ca845c737cb9313f54c60d965d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
 27
 28    <application
-28-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:7:5-9:19
+28-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:7:5-9:19
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.0.0] /home/zrfl/.gradle/caches/transforms-2/files-2.1/8ef0dd1b827b6b28c1e9211227fa2d4c/core-1.0.0/AndroidManifest.xml:22:18-86
 30        android:debuggable="true" >
-30-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:7:18-43
+30-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:7:18-43
 31        <uses-library android:name="android.test.runner" />
-31-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:8:9-60
-31-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger567154369212666703.xml:8:23-57
+31-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:8:9-60
+31-->/home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8626538119932880092.xml:8:23-57
 32
 33        <meta-data
 33-->[__tested_artifact__::gameleap-capacitor-chromecast] /home/zrfl/git/mobile/node_modules/@gameleap/capacitor-chromecast/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:85

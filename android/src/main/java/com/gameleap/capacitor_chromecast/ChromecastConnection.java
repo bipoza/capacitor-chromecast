@@ -475,9 +475,9 @@ public class ChromecastConnection {
     /**
      * Exits the current session.
      * @param stopCasting should the receiver application  be stopped as well?
-     * @param callback called with .success or .error depending on the initial result
+     * @param pluginCall called with .success or .error depending on the initial result
      */
-    void endSession(final boolean stopCasting, final CallbackContext callback) {
+    void endSession(final boolean stopCasting, final PluginCall pluginCall) {
         activity.runOnUiThread(new Runnable() {
             public void run() {
                 getSessionManager().addSessionManagerListener(new SessionListener() {
@@ -485,8 +485,8 @@ public class ChromecastConnection {
                     public void onSessionEnded(CastSession castSession, int error) {
                         getSessionManager().removeSessionManagerListener(this, CastSession.class);
                         media.setSession(null);
-                        if (callback != null) {
-                            callback.success();
+                        if (pluginCall != null) {
+                            pluginCall.success();
                         }
                         listener.onSessionEnd(ChromecastUtilities.createSessionObject(castSession, stopCasting ? "stopped" : "disconnected"));
                     }
