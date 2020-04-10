@@ -1,6 +1,6 @@
 {
   "name": "@gameleap/capacitor-chromecast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A plugin which allows content to be stramed to Chromecast-enabled devices.",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
